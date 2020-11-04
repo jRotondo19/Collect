@@ -40,6 +40,10 @@ public class Collect {
 		System.out.println(mapsorted1.getKey() + ":" + mapsorted1.getValue());
 	}
 	
-	//as you can see, treemap will keep a sorted order of integers but hashmap will give any order it pleases.
+	// hashmap should be used when the order does not matter
+	// treemap should be implemented when you want to keep a certain order
+	//as you can see while compiling the above program, treemap will keep a sorted order of integers but hashmap will give any order it pleases.
 	
 	}
+	
+}
